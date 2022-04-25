@@ -1,24 +1,18 @@
-# vsum_dsf
-The implementation of the paper "Video Summarization using Deep Semantic Features" in ACCV'16 [[arXiv](arxiv.org/abs/1609.08758)]
+# Video summarization based on Deep Semantic Features
+The implementation is based on the paper "Video Summarization using Deep Semantic Features" in ACCV'16 [[arXiv](arxiv.org/abs/1609.08758)]
 
-## How to set it up
 
-	git clone https://github.com/mayu-ot/vsum_dsf.git
+## Install dependency
+The source is running on Python 2.7.
+The environment can be installed via conda environment:
 
-### Install dependency
-
-You can install required python packages using conda:
-
-	conda env create -f vsum_dsf/environment.yml
+	$ conda create --name <env> --file <environment file>
 	
-Requirements:
-- numpy=1.11
-- scipy
-- scikit learn
-- chainer=2.0
+	For example:
+	
+	$ conda create --name video_summarization --file requirements.txt
+	
 
-Optional:
-- scikit video ( for exporting video )
 
 This code utilizes tools provided by M. Gygli *et al.* [1].
 You can set it up by:
