@@ -23,12 +23,14 @@ You can set it up by:
 
 [1] Gygli, Grabner & Van Gool. Video Summarization by Learning Submodular Mixtures of Objectives. CVPR 2015.
 
+\* The source are already set up with *gm_submodular*
+
 ### Download dataset and model parameters
 
-The source can be tested on Summe dataset provided bt M. gygli *et al.* [2].
+The source can be tested on Summe dataset provided bt M. Gygli *et al.* [2].
 To test the model in the paper, download a `data.zip` [**HERE**](https://www.dropbox.com/sh/lu4pmad4o59kvlj/AABZ_R412HJZnFvR_B_IEt00a?dl=0) and extract it in the folder `vsum_dsf`.
 
-[2] Gygli, M., Grabner, H., Riemenschneider, H., van Gool, L.: Creating summaries from user videos. In: Proc. European Conf. Computer Vision (ECCV). (2014) 505–520
+[2] Gygli M., Grabner, H., Riemenschneider, H., van Gool, L.: Creating summaries from user videos. ECCV 2014.
 
 ## Script
 
