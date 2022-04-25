@@ -8,7 +8,7 @@ The environment can be installed via conda environment:
 
 	$ conda create --name <env> --file <environment file>
 	
-	For example:
+For example:
 	
 	$ conda create --name video_summarization --file requirements.txt
 	
@@ -28,13 +28,6 @@ You can set it up by:
 
 To test the model in the paper, download a `data.zip` [**HERE**](https://www.dropbox.com/s/zxp8dq18t0tqlk2/data.zip?dl=0) and extract it in the folder `vsum_dsf`.
 
-The demo performs video summarization on the SumMe dataset ([project page](https://people.ee.ethz.ch/~gyglim/vsum/index.php)).
-
-You can download the dataset as: 
-
-	cd data/summe
-	wget https://data.vision.ee.ethz.ch/cvl/SumMe/SumMe.zip
-	unzip SumMe.zip
 
 ## Example
 
