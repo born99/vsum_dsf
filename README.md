@@ -13,7 +13,6 @@ For example:
 	$ conda create --name video_summarization --file requirements.txt
 	
 
-
 This code utilizes tools provided by M. Gygli *et al.* [1].
 You can set it up by:
 
@@ -26,12 +25,16 @@ You can set it up by:
 
 ### Download dataset and model parameters
 
-To test the model in the paper, download a `data.zip` [**HERE**](https://www.dropbox.com/s/zxp8dq18t0tqlk2/data.zip?dl=0) and extract it in the folder `vsum_dsf`.
+The source can be tested on Summe dataset provided bt M. gygli *et al.* [2].
+To test the model in the paper, download a `data.zip` [**HERE**](https://www.dropbox.com/sh/lu4pmad4o59kvlj/AABZ_R412HJZnFvR_B_IEt00a?dl=0) and extract it in the folder `vsum_dsf`.
 
+[2] Gygli, M., Grabner, H., Riemenschneider, H., van Gool, L.: Creating summaries from user videos. In: Proc. European Conf. Computer Vision (ECCV). (2014) 505–520
 
-## Example
+## Script
 
-See the [notebook](https://github.com/mayu-ot/vsum_dsf/blob/master/Demo.ipynb) or:
+See the Demo.ipynb or run the script below to generate the video summaries:
 
 	python script/summarize.py
+	
+For evaluation 
 	python script/evaluate.py results/summe/smt_feat
