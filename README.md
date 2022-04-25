@@ -4,6 +4,7 @@ The implementation is based on the paper "Video Summarization using Deep Semanti
 
 ## Install dependency
 The source is running on Python 2.7.
+Anaconda and Jupyter notebook are utilized for creating the ideal environment [**Download**](https://www.anaconda.com/).
 The environment can be installed via conda environment:
 
 	$ conda create --name <env> --file <environment file>
@@ -23,7 +24,7 @@ You can set it up by:
 
 [1] Gygli, Grabner & Van Gool. Video Summarization by Learning Submodular Mixtures of Objectives. CVPR 2015.
 
-\* The source are already set up with *gm_submodular*
+\* The source are already set up with *gm_submodular*.
 
 ### Download dataset and model parameters
 
@@ -32,11 +33,14 @@ To test the model in the paper, download a `data.zip` [**HERE**](https://www.dro
 
 [2] Gygli M., Grabner, H., Riemenschneider, H., van Gool, L.: Creating summaries from user videos. ECCV 2014.
 
+\* Data are already contained in the source code
+
 ## Script
 
 See the Demo.ipynb or run the script below to generate the video summaries:
 
-	python script/summarize.py
+	$ python script/summarize.py
 	
-For evaluation 
-	python script/evaluate.py results/summe/smt_feat
+For evaluation: 
+
+	$ python script/evaluate.py results/summe/smt_feat
